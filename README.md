@@ -40,9 +40,106 @@ To check CPU usage every 5 minutes:
 ### Description
 Automates the installation of MongoDB 6.0 on an Ubuntu server.
 
-###
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
 ```bash
 chmod +x mongodb-install.sh
 ./mongodb-install.sh
 ```
 
+---
+
+## LAMP Stack Installation Script
+
+### Description
+This script installs the complete LAMP stack (Linux, Apache, MySQL, PHP) along with phpMyAdmin. It sets up everything necessary for a basic web server environment.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x lamp-install.sh
+```
+
+---
+
+## PostgreSQL Installation Script
+
+### Description
+This script installs PostgreSQL and configures it with a new user and database.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x postgresql-install.sh
+./postgresql-install.sh
+```
+
+---
+
+## Prometheus Installation Script
+
+### Description
+Automates the installation of Prometheus, a powerful monitoring and alerting tool, on a Linux server. The script downloads the latest release of Prometheus, configures it, and sets it up as a service.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x prometheus-install.sh
+./prometheus-install.sh
+```
+
+---
+
+## Redis Installation Script
+
+### Description
+This script installs and configures Redis, an in-memory data structure store, on a Linux server.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x redis-install.sh
+./redis-install.sh
+```
+
+---
+
+## RethinkDB Installation Script
+
+### Description
+Automates the installation and setup of RethinkDB, a distributed NoSQL database, on an Ubuntu server.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x rethinkdb-install.sh
+./rethinkdb-install.sh
+```
+
+---
+
+## Docker and Kubernetes Installation Script
+
+### Description
+This script installs Docker, CRI-Dockerd, and Kubernetes on a Debian or Ubuntu server. It also initializes a Kubernetes cluster and sets up Calico as the pod network.
+
+### Usage
+1. Place the script on your server.
+2. Make it executable:
+
+```bash
+chmod +x docker-kubernetes-install.sh
+./docker-kubernetes-install.sh
+```
