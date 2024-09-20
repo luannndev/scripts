@@ -31,6 +31,7 @@ To check CPU usage every 5 minutes:
 
 ```bash
 */5 * * * * /path/to/cpu-overload-reboot.sh
+```
 
 ---
 
@@ -43,3 +44,5 @@ Automates the installation of MongoDB 6.0 on an Ubuntu server.
 ```bash
 chmod +x mongodb-install.sh
 ./mongodb-install.sh
+```
+
